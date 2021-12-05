@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static Task5_Bank.LocalTime;
+using static Lab4.LocalTime;
 
-namespace Task5_Bank
+namespace Lab4
 {
     abstract public class Cost
     {

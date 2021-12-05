@@ -5,6 +5,7 @@ namespace Lab0
 {
     public interface IIsuService
     {
+        OgnpService OgnpService { get; set; }
         Group AddGroup(GroupName name);
         Student AddStudent(Group group, string name);
 

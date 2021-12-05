@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Task5_Bank
+namespace Lab4
 {
-    class Bank
+    public class Bank
     {
         public string Name;
         public List<Client> Clients= new List<Client>();

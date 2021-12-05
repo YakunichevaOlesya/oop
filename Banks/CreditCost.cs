@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task5_Bank
+﻿namespace Lab4
 {
-    class CreditCost : Cost
+    public class CreditCost : Cost
     {
         public CreditCost(int id_, CostSettings settings):
             base(id_)

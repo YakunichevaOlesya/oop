@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task5_Bank
+﻿namespace Lab4
 {
-    class Log
+    public class Log
     {
         public readonly int TransactionID;
         public readonly Client client;
