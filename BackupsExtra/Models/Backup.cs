@@ -135,8 +135,7 @@ namespace Lab5.Models
                 BackupSize += i.FileSize;
             }
         }
-        // TODO: Update Backup Files!! #1
-        // TODO: Создание нескольких точек восстановления #2 READY
+
         public void AddRestorePoint()
         {
             RestorePoint point = new RestorePoint(pID_++, true, DateTime.Now, BackupSize, Files);
